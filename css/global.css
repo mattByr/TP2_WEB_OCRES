@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -166,6 +166,7 @@ input.submit {
     background-color: #0A90D5;
     color: white;
     background-image: url("../img/icon/station-white.png");
+
 }
 
 
