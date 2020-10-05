@@ -9,6 +9,33 @@
     font-family: 'My Lucida', Console;
 }
 
+@media screen and (max-width: 540px) {
+    #blockResearch { visibility:hidden;}
+    .share { visibility:hidden;}
+  
+  }
+
+@media screen and (max-width: 450px) {
+    * { 
+        font-size: smaller;
+    }
+  }
+
+  @media screen and (min-width: 450px) and (max-width: 600px) {
+    * { 
+        font-size: small;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1400px) {
+    * { 
+        font-size: larger;
+    }
+  }
+
+
+
+
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
